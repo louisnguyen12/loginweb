@@ -1,0 +1,98 @@
+
+
+.background {
+    background-image: url("file:///C:/Users/Louis/Downloads/cool-background.png");
+    text-align : center;
+    background-repeat: no-repeat;
+    background-size: 100% 100% contain;
+    font-family: 'Archivo', 'Trebuchet MS';
+    font-size: 28px;
+    color: rgb(118, 32, 230);
+}
+
+.text {
+    color: rgb(55, 39, 207);
+}
+
+.text p{
+    color:rgb(118, 32, 230);
+}
+
+.topButton {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(244, 122, 97);
+    background-color: rgb(140, 89, 249);
+    border: solid 2px white;
+    height: 35px;
+}
+
+.topButton:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.formButton {
+    position: relative;
+}
+
+.formButton input{
+    border-radius: 4px;
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    height: 30px;
+    border: solid 2px white;
+}
+
+.formButton input::placeholder{
+    color: rgb(162, 154, 241)
+}
+
+textarea:focus, input:focus {
+    color: rgb(55, 39, 207);
+}
+
+input, select, textarea{
+    color: rgb(55, 39, 207);
+}
+.formButton select{
+    border-radius: 4px;
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    width: 520px;
+    height: 40px;
+    color: rgb(55, 39, 207);
+    border: solid 2px white;
+}
+
+.formButton button{
+    border-radius: 4px;
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    color:rgb(244, 122, 97);
+    background-color: rgb(140, 89, 249);
+    width: 520px;
+    height: 40px;
+    border: solid 2px white;
+}
+
+.formButton button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.term {
+    font-size: 14px;
+}
+
+a:link {
+    color: rgb(36, 95, 224);
+}
+
+a:hover {
+    color: rgb(214, 179, 81);
+}
